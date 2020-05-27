@@ -30,7 +30,7 @@ export OUTPUT_DIR=output
 
 #mkdir -p "$OUTPUT_DIR"
 
-srun python compile_prob_seqs.py
+srun python model_prob_seqs.py
 
 
 echo "END: $(date)"
